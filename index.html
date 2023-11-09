@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS For Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- CSS For Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Leckerli+One&family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Main JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <title>Sweet Life</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Sweet Life</h1>
+        </div>
+        
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" id="active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="registration.html">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+            </ul>
+
+            <!-- Side navigation bar for responsive -->
+            <div class="hamburger-menu"> 
+                <button></button>
+                    <div class="line line line-1"></div>
+                    <div class="line line line-2"></div>
+                    <div class="line line line-3"></div>
+            </div>
+              <div class="bg-cover"></div>
+        </nav>
+        <div id="banner">
+
+            <!-- Slideshow banner -->
+            <div class="slideshow-wrapper">
+                <div class="slides">
+                    <div class="slide slide-1">
+                        <img alt="slideImg1" src="images/slide-img-1.jpg" id="slide-img-1">                     
+                    </div>
+                    <div class="slide slide-2">
+                        <img alt="slideImg2" src="images/slide-img-2.jpg" id="slide-img-2">
+                    </div>
+                    <div class="slide slide-3">
+                        <img alt="slideImg3" src="images/slide-img-3.jpg" id="slide-img-3">
+                    </div>
+                </div>
+                <div class="slideIndex">
+                    <div class="button button-1"></div>
+                    <div class="button button-2"></div>
+                    <div class="button button-3"></div>
+                </div>
+            </div> 
+        </div>
+</header>
+
+<main>
+
+    <!-- Product section -->
+    <section id="products">
+        <h2>Our Products</h2>
+
+        <!-- Choose kind of product -->
+        <div id="productSelect">
+            <ul>
+                <li class="this" id="gelato">Gelato</li>
+                <li id="softServe">Soft Serve</li>
+                <li id="rolled">Rolled Ice Cream</li>
+            </ul>
+        </div>
+
+        <!-- Products Images -->
+        <div id="productsImg">
+            <div><img src="images/gelato1.jfif" alt="product1" id="product1"><a href="" class="ref">hell</a></div>
+            <div><img src="images/gelato2.jfif" alt="product2" id="product2"></div>
+            <div><img src="images/gelato3.jfif" alt="product3" id="product3"></div>
+            <div><img src="images/gelato4.jfif" alt="product4" id="product4"></div>
+        </div>
+        <h3><a href="registration.html">Order Now</a></h3>
+    </section>
+    
+
+    <!-- History of the web page -->
+    <section id="history">
+        <h2>Origins</h2>
+        <div id="historyContent">
+            <p>Sweet Life ice cream shop was founded in 2015 by Maria Bianco, a former pastry chef who wanted to share her passion for frozen desserts with the community. She started with a small cart in the local park, offering homemade ice cream flavors made with fresh ingredients and natural sweeteners. Soon, her ice cream became popular among the locals and tourists alike, and she decided to open a brick-and-mortar shop in the downtown area. Ms Bianco's Sweet Life ice cream shop now serves a variety of flavors, toppings, and treats, all made with high-quality ingredients. Ms Bianco's motto is "Life is sweet, enjoy it with ice cream".</p>
+        </div>
+        
+        <br>
+    </section>
+</main>
+
+<footer>
+    <div id="information">
+        <div id="logo">
+            <img src="images/logo.svg" alt="SUT Logo">
+        </div>
+        
+        <div id="contact">
+            <p>Contact us</p>
+            <ul>
+                <li><a href="https://www.facebook.com/SwinburneDanang"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="https://www.instagram.com/swinburnevietnam/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/Swinburne"><i class="fab fa-twitter-square"></i></a></li>
+            </ul>
+        </div>
+        
+        
+        <div id="stores">
+            <p>Stores: </p>
+            <ul>
+                <li><i class="material-icons">&#xe0c8;</i> Da Nang: 2A D.2 Thang 9, Hoa Cuong Bac, Hai Chau</li>
+                <li><i class="material-icons">&#xe0c8;</i> Ho Chi Minh City: A35 Bach Dang, Ward 2, Tan Binh</li>
+                <li><i class="material-icons">&#xe0c8;</i> Ha Noi: 2 Duong Khue, Mai Dich</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="copyright">
+        <p>&#169; Copyright 2023 Chanh Hoai Nam Nguyen</p>
+    </div>
+</footer>
+</body>
+</html>
